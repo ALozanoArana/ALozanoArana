@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Gabriela</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom right, #7b4397, #dc2430);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 20px 30px;
+            text-align: center;
+            max-width: 600px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 2s ease-in-out;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        .signature {
+            font-size: 1rem;
+            font-style: italic;
+            margin-top: 20px;
+            color: #f0f0f0;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #7b4397;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .button:hover {
+            background-color: #e0e0e0;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Hola, Gabriela</h1>
+        <p>
+            Quiero que sepas algo muy sencillo pero importante: <br> 
+            Eres una mujer única, la más hermosa de Colombia, no solo por tu sonrisa que ilumina todo, sino también por tu noble corazón. 
+            <br><br>
+            Este pequeño rincón está aquí para recordarte que alguien piensa en ti con admiración y cariño. 
+            Espero que te saque una sonrisa. 
+        </p>
+        <p class="signature">Con afecto, <br> Alejandro</p>
+        <a href="#" class="button">Sigue brillando ✨</a>
+    </div>
+</body>
+</html>
+
